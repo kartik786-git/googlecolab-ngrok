@@ -1,7 +1,7 @@
 # googlecolab-ngrok
 
 # first cell
-!sudo apt-get install zstd # Install zstd, a fast lossless compression tool often used for handling large model files
+!sudo apt-get install zstd ## Install zstd, a fast lossless compression tool often used for handling large model files
 !curl -fsSL https://ollama.com/install.sh | sh # Download and run the official Ollama installation script to set up the local AI runner
 !wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz # Download the compressed archive for ngrok, which allows you to expose your local server to the internet
 !tar xvzf ngrok-v3-stable-linux-amd64.tgz # Extract (unzip) the ngrok files so the application can be executed
